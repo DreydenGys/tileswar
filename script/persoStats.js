@@ -78,8 +78,8 @@
 		vieMax: 800,
 		isAlive: true,
 		sprite: "url('img/knightSprite.png')",
-		bandImage: "url('img/Chevalier slect.png')",
-		icon: "url('img/chevalier.png')"
+		bandImage: "url('img/chevalier.png')",
+		icon: "url('img/Chevalier slect.png')"
 	};
 	
 	var Ninja = {
