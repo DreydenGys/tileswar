@@ -37,8 +37,8 @@
 		vieMax: 500,
 		isAlive: true,
 		sprite: "url('')",
-		bandImage: "url('img/Aventurier.png')",
-		icon: "url('img/aventurier slect.png')",
+		bandImage: "url('img/aventurier.png')",
+		icon: "url('img/Aventurier slect.png')",
 		sprite: "url('img/aventurierSprite.png')"
 	};
 	
@@ -59,7 +59,7 @@
 		isAlive: true,
 		sprite: "url('img/robotSprite.png')",
 		bandImage: "url('img/Robot.png')",
-		icon: "url('img/robot slect.png')"
+		icon: "url('img/Robot slect.png')"
 	};
 	
 	var Chevalier = {
@@ -78,8 +78,8 @@
 		vieMax: 800,
 		isAlive: true,
 		sprite: "url('img/knightSprite.png')",
-		bandImage: "url('img/Chevalier.png')",
-		icon: "url('img/chevalier slect.png')"
+		bandImage: "url('img/Chevalier slect.png')",
+		icon: "url('img/chevalier.png')"
 	};
 	
 	var Ninja = {
@@ -98,8 +98,8 @@
 		vieMax: 600,
 		isAlive: true,
 		sprite: "url('img/ninjaSprite.png')",
-		bandImage: "url('img/Ninja.png')",
-		icon: "url('img/ninja slect.png')"
+		bandImage: "url('img/ninja.png')",
+		icon: "url('img/Ninja slect.png')"
 	};
 	
 	var Zombie = {
@@ -118,7 +118,7 @@
 		vieMax: 1000,
 		isAlive: true,
 		sprite: "url('img/zombieSprite.png')",
-		bandImage: "url('img/Zombie.png')",
+		bandImage: "url('img/zombie.png')",
 		icon: "url('img/zombie slect.png')"
 	};
 

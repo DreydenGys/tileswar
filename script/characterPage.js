@@ -73,7 +73,7 @@ var peutLancer = false;
 			Perso6 = Object.create(Ninja);
 			$("#persoSix").css("background-image", Perso6.bandImage);
 		} else {}
-		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/ninja slect.png'/></div><div id='centreBas1'>Vie: "+ Ninja.vie + "<br><br> Attaque: "+ Ninja.attack + "<br><br> Coups critique: "+ Ninja.critics + "%<br><br> Points d'actions: " + Ninja.speed + "<br><br> Portee: " + Ninja.portee + "<br><br> Description: "+ Ninja.description + "</div>");
+		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/Ninja slect.png'/></div><div id='centreBas1'>Vie: "+ Ninja.vie + "<br><br> Attaque: "+ Ninja.attack + "<br><br> Coups critique: "+ Ninja.critics + "%<br><br> Points d'actions: " + Ninja.speed + "<br><br> Portee: " + Ninja.portee + "<br><br> Description: "+ Ninja.description + "</div>");
 	}
 	
 	$("#case7").on("click", robot);
@@ -97,7 +97,7 @@ var peutLancer = false;
 			Perso6 = Object.create(Robot);
 			$("#persoSix").css("background-image", Perso6.bandImage);
 		} else {}
-		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/robot slect.png'/></div><div id='centreBas1'>Vie: "+ Robot.vie + "<br><br> Attaque: "+ Robot.attack + "<br><br> Coups critique: "+ Robot.critics + "%<br><br> Points d'actions: " + Robot.speed + "<br><br> Portee: " + Robot.portee +"<br><br> Description: "+ Robot.description + "</div>");
+		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/Robot slect.png'/></div><div id='centreBas1'>Vie: "+ Robot.vie + "<br><br> Attaque: "+ Robot.attack + "<br><br> Coups critique: "+ Robot.critics + "%<br><br> Points d'actions: " + Robot.speed + "<br><br> Portee: " + Robot.portee +"<br><br> Description: "+ Robot.description + "</div>");
 	}
 	
 	$("#case9").on("click", aventurier);
@@ -121,7 +121,7 @@ var peutLancer = false;
 			Perso6 = Object.create(Aventurier);
 			$("#persoSix").css("background-image", Perso6.bandImage);
 		} else {}
-		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/aventurier slect.png'/></div><div id='centreBas1'>Vie: "+ Aventurier.vie + "<br><br> Attaque: "+ Aventurier.attack + "<br><br> Coups critique: "+ Aventurier.critics + "%<br><br> Points d'actions: " + Aventurier.speed + "<br><br> Portee: " + Aventurier.portee + "<br><br> Description: "+ Aventurier.description + "</div>");
+		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/Aventurier slect.png'/></div><div id='centreBas1'>Vie: "+ Aventurier.vie + "<br><br> Attaque: "+ Aventurier.attack + "<br><br> Coups critique: "+ Aventurier.critics + "%<br><br> Points d'actions: " + Aventurier.speed + "<br><br> Portee: " + Aventurier.portee + "<br><br> Description: "+ Aventurier.description + "</div>");
 	}
 	
 	$("#case8").on("click", chevalier);
@@ -145,7 +145,7 @@ var peutLancer = false;
 			Perso6 = Object.create(Chevalier);
 			$("#persoSix").css("background-image", Perso6.bandImage);
 		} else {}
-		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/chevalier slect.png'/></div><div id='centreBas1'>Vie: "+ Chevalier.vie + "<br><br> Attaque: "+ Chevalier.attack + "<br><br> Coups critique: "+ Chevalier.critics + "%<br><br> Points d'actions: " + Chevalier.speed + "<br><br> Portee: " + Chevalier.portee + "<br><br> Description: "+ Chevalier.description + "</div>");
+		$("#centre1").html("<div id='centreHaut1'><img id='imgcentre' src='img/Chevalier slect.png'/></div><div id='centreBas1'>Vie: "+ Chevalier.vie + "<br><br> Attaque: "+ Chevalier.attack + "<br><br> Coups critique: "+ Chevalier.critics + "%<br><br> Points d'actions: " + Chevalier.speed + "<br><br> Portee: " + Chevalier.portee + "<br><br> Description: "+ Chevalier.description + "</div>");
 	}
 	
 	$("#case6").on("click", random);
