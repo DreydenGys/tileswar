@@ -1,0 +1,229 @@
+﻿html,body {
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: 'police';
+	src: url('SuperMario256.ttf') format('truetype');
+}
+
+#container {
+	position: absolute;
+	display: flex;
+	width:100%;
+	height:100%;
+	top:0%;
+	left:0%;
+}
+
+table {
+	width:100%;
+	height:79%;
+	border-collapse: collapse;
+	background-size: 100% 100%;
+}
+tr {
+	position: relative;
+	width:64px;
+	height:64px;
+	/*border-width:1px;*/
+}
+
+td {
+	position: relative;
+	height:64px;
+	width:64px;
+	/*border-style:solid;
+	border-width:1px;*/
+	opacity: 1;
+	background-color:transparent;
+}
+
+/*td:hover {
+	background-color: rgba(173, 216, 230, 0.75);
+}*/
+
+.sideBox {
+	height:99%;
+	width:15%;
+	background-color:rgba(255, 255, 255, 0.8);
+}
+
+#leftBox {
+	border-right-style:solid;
+	border-right-width:1px;
+}
+
+#rightBox {
+	border-left-style:solid;
+	border-left-width:1px;
+}
+
+#middleBox {
+	height:640px;
+	width:960px;
+	/*display:flex;
+	flex-direction:column;
+	align-items: flex-start;*/
+}
+
+#titleBox {
+	width:100%;
+	height:0px;
+}
+
+#footerBox {
+	display:flex;
+	width:100%;
+	height:0px;
+	justify-content:center;
+}
+
+.perso {
+	position:relative;
+	height:100%;
+	background-repeat: no-repeat;
+}
+
+#perso4 {
+	transform:scaleX(-1);
+}
+
+#perso5 {
+	transform:scaleX(-1);
+}
+
+#perso6 {
+	transform:scaleX(-1);
+}
+
+.cardBox {
+	position:relative;
+	height:33.3333333333333333333333333333333333333333333333333333%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+
+#turnButton {
+	position:relative;
+  -webkit-border-radius: 51;
+  -moz-border-radius: 51;
+  border-radius: 51px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  background: #1f6e04;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+  width:200px;
+  height:50px;
+  bottom:-10px;
+  font-family:police;
+}
+
+#turnButton:hover {
+  background: #069e36;
+  text-decoration: none;
+}
+
+#bandContainer {
+	position:absolute;
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+}
+
+#band {
+	position:relative;
+	display:flex;
+	width:100%;
+	height:25%;
+	background-color:rgba(0,0,0,0.8);
+	color:red;
+	font-family:"police";
+	font-size:100px;
+	justify-content:center;
+	align-items:center;
+	animation-duration:1s;
+	transition-duration:1s;
+	z-index:9999;
+}
+
+.identityTop {
+	position:relative;
+	width:100%;
+	height:60%;
+	display:flex;
+}
+
+.identityBot {
+	position:relative;
+	width:100%;
+	height:40%;	
+}
+
+.identityImg {
+	position:relative;
+	width:30%;
+	height:70%;
+	border: solid 1px;
+	margin-left:20px;
+	margin-top:auto;
+	margin-bottom:auto;
+	background-size:100% 100%;
+}
+
+.identityName {
+	position:relative;
+	margin:auto;
+	font-family:police;
+	animation-duration:0.5s;
+	transition-duration:0.5s;
+}
+
+.identityName:hover {
+	font-size:40px;
+}
+
+.bar {
+	position:relative;
+	width:70%;
+	height:10%;
+	border:solid 1px;
+	margin:auto;
+	margin-top:20px;
+}
+
+.lifeBar {
+	position:relative;
+	height:100%;
+	width:100%;
+	background-color:red;
+}
+
+.staminaBar {
+	position:relative;
+	height:100%;
+	width:100%;
+	background-color:yellow;
+}
+
+.icon {
+	position:absolute;
+	height:100%;
+	left:-25px;
+}
+
+#victoryPng {
+	position:absolute;
+	width:100%;
+	height:100%;
+}

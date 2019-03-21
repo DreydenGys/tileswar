@@ -1,0 +1,246 @@
+
+html, body {
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+
+#container {
+	position: absolute;
+	display: flex;
+	width:100%;
+	height:100%;
+	top:0%;
+	left:0%;
+}
+
+#haut {
+	position: absolute;
+	width:100%;
+	height:70%;
+	top:0%;
+	left:0%;
+	display:flex;
+}
+
+
+#bas {
+	position: absolute;
+	width:100%;
+	height:30%;
+	top:70%;
+	left:0%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+#gauche1 {
+	position:relative;
+	height:100%;
+	width:37.5%;
+	display: inline-block;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+#centre1 {
+	position:relative;
+	height:100%;
+	width:25%;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+#droite1 {
+	position:relative;
+	height:100%;
+	width:37.5%;
+	display: inline-block;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+#persoOne {
+	position:relative;
+	height:100%;
+	width:33%;
+	display: inline-block;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	border:solid 1px;
+}
+#persoTwo {
+	position:relative;
+	height:100%;
+	width:33%;
+	display: inline-block;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	border:solid 1px;
+}
+#persoThree {
+	position:relative;
+	height:100%;
+	width:33%;
+	display: inline-block;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	border:solid 1px;
+}
+
+#persoFour {
+	position:relative;
+	height:100%;
+	width:33%;
+	display: inline-block;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	border:solid 1px;
+}
+#persoFive {
+	position:relative;
+	height:100%;
+	width:33%;
+	display: inline-block;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	border:solid 1px;
+}
+#persoSix {
+	position:relative;
+	height:100%;
+	width:33%;
+	display: inline-block;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position: center;
+	border:solid 1px;
+}
+
+#tableauSelection {
+	position:relative;
+	height:98%;
+	width:35%;
+	border-collapse: collapse;
+}
+
+.ligne {
+	position:relative;
+	width:100%;
+	height:50%;
+}
+
+.boite {
+	position:relative;
+	height:50%;
+	width:20%;
+	border:solid 1px;
+	opacity:0.8;
+	transition-duration:0.5s;
+	animation-duration:0.5s;
+}	
+
+#case1 {
+	background-size: 100% 100%;
+	background-image: url("../img/return.png");
+}
+
+#case2 {
+	background-size: 100% 100%;
+	background-image: url("../img/zombie slect.png");
+}
+
+#case3 {
+	background-size: 100% 100%;
+	background-image: url("../img/jack slect.png");
+}
+
+#case4 {
+	background-size: 100% 100%;
+	background-image: url("../img/Ninja slect.png");
+}
+
+#case5 {
+	background-size: 100% 100%;
+	background-image: url("../img/tick.png");
+}
+
+#case6 {
+	background-size: 100% 100%;
+	background-image: url("../img/point.jpg");
+}
+
+#case7 {
+	background-size: 100% 100%;
+	background-image: url("../img/Robot slect.png");
+}
+
+#case8 {
+	background-size: 100% 100%;
+	background-image: url("../img/Chevalier slect.png");
+}
+
+#case9 {
+	background-size: 100% 100%;
+	background-image: url("../img/Aventurier slect.png");
+}
+
+#case10 {
+	background-size: 100% 100%;
+	background-image: url("../img/point.jpg");
+}
+
+.boite:hover {
+	opacity:1;
+}
+
+
+#boutonDeLancement {
+	position:absolute;
+	height:30%;
+	right:10%;
+	cursor:pointer;
+	animation-duration:0.5s;
+	transition-duration:0.5s;
+	opacity:0.5;
+}
+
+#boutonDeLancement:hover {
+	height:35%;
+}
+
+#imgcentre{ 
+	position:relative;
+	margin-top:20px;
+	border: solid 1px;
+	border-radius:5px;
+	height:80%;
+}
+
+#textcentre {
+	position:relative;
+	margin-top:50px;
+}
+
+#centreHaut1 {
+	position:relative;
+	height:30%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#centreBas1 {
+	position:relative;
+	height:70%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-family:police;
+}
