@@ -1,2 +1,2 @@
-# tileswar.github.io
+# tileswar
 Projet Informatique et Sciences du Numérique: Tiles War.
